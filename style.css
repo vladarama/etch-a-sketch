@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+
+}
+
+
+.div_one {
+
+    border: 1px black solid;
+    margin: 0px;
+    padding: 10px;
+
+
+
+
+
+
+}

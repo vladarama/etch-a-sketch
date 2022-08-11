@@ -19,32 +19,47 @@
     <h1 class="title">Etch-A-Sketch</h1>
 
 
-    <div class="slider_container">
+    <div class="functions">
 
-        <p id="slider_text">Choose a Grid Size:
-            <span id="slider_span"></span>
-        </p>
+        <div class="left_section">
+            <div class="slider_container">
 
-        <input type="range" id="slider" min="2" max="64">
+                <p id="slider_text">Grid Size:
+                    <span id="slider_span"></span>
+                </p>
+
+                <input type="range" id="slider" min="2" max="64">
+
+            </div>
+
+
+            <div class="clear">
+                <button id="clear_button">Clear Grid</button>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="colors">
+
+            <input type="color" name="color" id="color_picker">
+            <label for="color">Pick a Color</label>
+
+            <input type="checkbox" name="RGB" id="rgb_mode">
+            <label for="RGB">RGB Mode</label>
+
+
+        </div>
 
     </div>
 
 
-    <div class="colors">
-
-        <input type="color" name="color" id="color_picker">
-        <label for="color">Pick a Color</label>
-
-        <input type="checkbox" name="RGB" id="rgb_mode">
-        <label for="RGB">RGB Mode</label>
 
 
-    </div>
 
-
-    <div class="clear">
-        <button id="clear_button">Clear Grid</button>
-    </div>
 
 
 

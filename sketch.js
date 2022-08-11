@@ -118,6 +118,7 @@ const clear = document.getElementById("clear_button")
 
 clear.onclick = function () {
     clearGrid()
+    createGrid(256)
 }
 
 
